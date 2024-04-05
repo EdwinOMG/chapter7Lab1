@@ -1,0 +1,85 @@
+/*
+Student Name: Edwin Morales Jr
+Date: 3/18/24
+File Name: styles.css
+*/
+
+body, header, nav, main, footer, img, h1, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for mobile viewport */
+
+/* Hide tab-desk class */
+.tab-desk {
+    display: none;
+}
+
+header {
+    text-align: center;
+    font-size: 1.5em;
+    color: #373684;
+    font-family: 'DM Serif Display', serif; /* Add font-family for header h1 */
+}
+
+header h1 {
+    /* Remove font-style declaration */
+}
+
+nav {
+    background-color: #373684;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: block; /* Change display value to block */
+    font-size: 2em;
+
+    border-top: 1px solid #e5e9fc; /* Add border-top declaration */
+}
+
+nav li a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+main {
+    padding: 2%;
+    background-color: #e5e9fc;
+    overflow: auto;
+    font-family: 'Roboto', sans-serif; /* Change font-family for main */
+}
+
+main p {
+    font-size: 1.25em;
+}
+
+.action {
+    font-size: 1.25em; /* Modify font-size value */
+}
+
+/* Style rules for tel-link and email-link */
+.tel-link {
+    background-color: #373684;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tel-link a, .email-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+}
